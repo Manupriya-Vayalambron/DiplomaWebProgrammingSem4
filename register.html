@@ -1,0 +1,79 @@
+<html>
+<head><title> Registration Form</title>
+<style>
+tr:nth-child(even)
+{
+background-color:#f2f2f2;
+}
+th{
+background-color:blue;
+color;white;
+}
+th,td{
+padding:15px;
+}
+</style>
+</head>
+<body>
+<br><br>
+<center>
+<form name="reg" method="post" action="action.php">
+<table border="0" width="800" align="center">
+<tr>
+<th colspan="2"> REGISTRATION FORM </th>
+</tr>
+
+<tr>
+<td>Username</td>
+<td><input type="text" name="user" value''></td>
+</tr>
+
+<tr>
+<td>First Name</td>
+<td><input type="text" name="first" value''></td>
+</tr>
+
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="last" value''></td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="password" name="password" value=""></td>
+</tr>
+
+<tr>
+<td>Confirm Password</td>
+<td><input type="password" name="conpass" value=""></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="text" name="email" value''></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><input type="checkbox" name="terms" value="">I accept all Terms and Conditions</td>
+</tr>
+
+<tr>
+<th colspan=2>
+<input type="submit" value="Register">
+</th>
+</tr>
+
+</table>
+</form>
+</center>
+</body>
+</html>
